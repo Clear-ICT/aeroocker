@@ -1,5 +1,5 @@
-FROM ubuntu-debootstrap:14.04
-MAINTAINER rvalyi "rvalyi@akretion.com"
+FROM ubuntu:16.04
+MAINTAINER Sucros Clear Information Technologies PLC "contact@clearict.com"
 
 RUN DEBIAN_FRONTEND=noninteractive && \
     apt-get update && \
